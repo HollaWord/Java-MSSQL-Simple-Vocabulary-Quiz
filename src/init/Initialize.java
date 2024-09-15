@@ -78,9 +78,6 @@ public class Initialize {
 	                "FROM #TempGEPT;" +
 	                "DROP TABLE #TempGEPT;";
 
-	            System.out.println("Executing SQL for " + tableName);
-	            System.out.println(sql);  // 打印 SQL 語句以進行調試
-
 	            PreparedStatement pstmt = conn.prepareStatement(sql);
 	            pstmt.executeUpdate();
 	            System.out.println(tableName + " 匯入資料庫成功");
