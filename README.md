@@ -1,5 +1,5 @@
-# Java-MSSQL-Simple-Vocabulary-Quiz
-Practicing purpose- Use Java window builder, JDBC and MSSQL to simply build a vocabulary quiz.
+# Practicing purpose
+Use Java window builder, JDBC and MSSQL to simply build a vocabulary quiz.
 
 # Modify ConnectionUntil.java first
 Before running /src/main/Quiz.java, you must modify /src/conn/ConnectionUntil.java by updating the MSSQL connection details (e.g., database URL, username, password) to match your MSSQL account.
